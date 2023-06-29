@@ -3,16 +3,16 @@ using namespace std;
 
 int main() {
 
-  int first_number, second_number, sum;
+  int a, b, sum;
     
   cout << "Enter two integers: ";
-  cin >> first_number >> second_number;
+  cin >> a >> b;
 
   // sum of two numbers in stored in variable sumOfTwoNumbers
-  sum = first_number + second_number;
+  sum = a + b;
 
   // prints sum 
-  cout << first_number << " + " <<  second_number << " = " << sum;     
+  cout << a << " + " <<  b << " = " << sum;     
 
   return 0;
 }
